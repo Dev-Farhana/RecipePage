@@ -1,0 +1,53 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+body{
+    background: linear-gradient(violet, plum,lavender ) ;
+}
+.main{
+    background: linear-gradient( pink, hotpink, lightpink) ;
+    border-bottom: 10px solid #d45c37;
+    min-width: 200px;
+    max-width: 760px;
+    position: relative; 
+    left: 25%;  
+    border-radius: 2rem;
+    overflow: hidden;
+    font-size: 2vw;
+    font-weight: 600;
+}
+h1{
+    margin: 10px auto ;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    
+}
+h2{
+    margin: 0 30px;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul{
+    padding: 10px 50px;
+    margin: 0;
+    line-height: 2;
+    display: inline-block;
+
+}
+p, .biryani{
+    padding: 10px 10px 0 10px;
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+    text-justify: inter-word;
+    text-align: justify;
+}
